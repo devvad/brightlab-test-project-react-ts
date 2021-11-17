@@ -14,6 +14,10 @@ import food1 from "./images/fono-little.png"
 import food2 from "./images/foto-big.png"
 import description from "./images/description-foto.png"
 import meat from "./images/meat.png"
+import fact1 from "./images/5.svg"
+import fact2 from "./images/50.000.svg"
+import fact3 from "./images/100.svg"
+import fact4 from "./images/1000s.svg"
 
 function App() {
   return (
@@ -72,7 +76,15 @@ function App() {
         columnFirstImg={chefMan}
         columnSecondImg={chefWoman}
       />
-      <Facts />
+
+      <Facts 
+        factFirst={
+          figcaption: "Average happiness rating from thousands of customers",
+          image: fact1,
+          alt: "4.8/5"
+        }
+      />
+
       <Reviews />
       <Description 
         title="What is homecooks?"
