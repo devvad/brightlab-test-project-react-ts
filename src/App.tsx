@@ -6,6 +6,7 @@ import Work from "./components/work/work";
 import Description from "./components/description/description";
 import Facts from "./components/facts/facts";
 import Reviews from "./components/reviews/reviews";
+import Footer from "./components/footer/footer";
 
 // images should be coming from backend (hello future GraphQL)
 import chefMan from "./images/chef-man.png"
@@ -66,6 +67,7 @@ function App() {
       />
       <Facts />
       <Reviews />
+      <Footer />
     </>
   );
 }

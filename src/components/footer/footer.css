@@ -1,0 +1,153 @@
+.footer {
+  background-image: url(./footer-foto.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  object-fit: contain;
+  width: 1440px;
+  height: 820px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__button {
+  border: 0;
+  align-items: center;
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 135%;
+  width: 300px;
+  height: 40px;
+  border-radius: 4px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footer__button:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.footer__button_facebook {
+  background-color: #415DAE;
+  margin-bottom: 42px;
+}
+
+.footer__button_google {
+  background-color: #4F86EC;
+  margin-bottom: 15px;
+}
+
+.footer__button_log-in {
+  background-color: #43A08B;
+  margin-bottom: 32px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 21px;
+}
+
+.footer__button_sign-up {
+  background-color: #E57F5D;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 21px;
+  margin-bottom: 91px;
+}
+
+.footer__choice {
+  display: flex;
+  align-self: center;
+  margin: 0;
+}
+
+.footer__form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+  margin-bottom: 32px;
+}
+
+.footer__icon {
+  margin-right: 12px;
+}
+
+.footer__input {
+  width: 284px;
+  height: 40px;
+  padding-left: 16px;
+}
+
+.footer__input_last {
+  margin-top: 26px;
+}
+
+.footer__line {
+  border-bottom: 1px solid #EEEEEE;
+  width: 110px;
+}
+  
+.footer__or {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 150%;
+  padding-left: 35px;
+  padding-right: 35px;
+  margin-bottom: -8px;
+  color: #B9BEC3;
+}
+
+.footer__password {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 135%;
+  color: #B9BEC3;
+  text-decoration: underline;
+  margin-top: 12px;
+  text-align: right;
+}
+
+.footer__password:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.footer__reg {
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 21px;
+  text-align: center;
+  margin-bottom: 11px;
+}
+
+.footer__reg_span {
+  color: #43A08B;;
+}
+
+.footer__subtitle {
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 135%;
+  text-align: center;
+  margin-top: 0;
+}
+
+.footer__text {
+  color: #8A929B;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  margin-top: 24px;
+  margin-bottom: 40px;
+}
+
+.footer__title {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  margin-top: 30px;
+  margin-bottom: 76px;
+  text-align: center;
+}
