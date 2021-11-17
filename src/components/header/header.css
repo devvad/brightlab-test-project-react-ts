@@ -4,7 +4,7 @@
   align-items: center;
   color: white;
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 900;
   line-height: 135%;
   width: 246px;
   height: 40px;
@@ -28,7 +28,7 @@
   padding-top: 29px;
 }
 
-.header__wrapper { 
+.header__wrapper {
   padding-right: 167px;
   padding-top: 40px;
   padding-bottom: 40px;

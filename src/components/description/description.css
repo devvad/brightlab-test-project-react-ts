@@ -6,7 +6,7 @@
 }
 
 .description__paragraph {
-	font-weight: bold;
+	font-weight: 900;
 	font-size: 16px;
 	line-height: 135%;
 	width: 476px;
@@ -19,7 +19,7 @@
 }
 
 .description__title {
-	font-weight: bold;
+	font-weight: 900;
 	font-size: 40px;
 	line-height: 135%;
 	padding: 0;

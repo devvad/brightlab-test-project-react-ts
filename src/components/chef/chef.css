@@ -8,7 +8,7 @@
 
 .chef__description {
   width: 490px;
-  font-weight: bold;
+  font-weight: 900;
   font-size: 16px;
   line-height: 135%;
   margin-bottom: 80px;
@@ -46,13 +46,13 @@
   margin: 0;
   margin-bottom: 20px;
   padding: 0;
-  font-weight: bold;
+  font-weight: 900;
   font-size: 24px;
   line-height: 135%;
 }
 
 .chef__paragraph {
-  font-weight: bold;
+  font-weight: 900;
   font-size: 16px;
   line-height: 135%;
   margin: 0;
@@ -60,7 +60,7 @@
 }
 
 .chef__title {
-  font-weight: bold;
+  font-weight: 900;
   font-size: 24px;
   line-height: 135%;
   margin: 0;
