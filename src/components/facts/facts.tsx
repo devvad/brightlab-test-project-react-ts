@@ -26,6 +26,4 @@ function Facts(props: FactsProps) {
   );
 }
 
-
-
 export default Facts

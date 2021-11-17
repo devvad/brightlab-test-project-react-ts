@@ -18,6 +18,9 @@ import fact1 from "./images/5.svg"
 import fact2 from "./images/50.000.svg"
 import fact3 from "./images/100.svg"
 import fact4 from "./images/1000s.svg"
+import roz from "./images/Roz.png"
+import gina from "./images/Gina.png"
+import nina from "./images/Nina.png"
 
 function App() {
   return (
@@ -102,7 +105,28 @@ function App() {
 
       />
 
-      <Reviews />
+      <Reviews items={[
+				{
+        	image: roz,
+        	alt: "Roz",
+					name: "Roz",
+					text: "I love the diversity of food - cooked in small batches by fantastic, local chefs and then delivered! The food is very different to traditional takeaways and always feels freshly cooked with pride and love."
+				},
+				{
+        	image: gina,
+        	alt: "Gina",
+					name: "Gina",
+					text: "The food is amazing, everyone is incredibly kind - and there is a great variety of food, all so skilfully prepared! It feels like a homely community!"
+				},
+				{
+        	image: nina,
+        	alt: "Nina",
+					name: "Nina",
+					text: "It’s great being the opportunity to try food that I would likely not encounter unless I was abroad! Many dishes take me back to my childhood memories - and I love supporting local chefs."
+				},
+			]}
+
+			/>
       <Description
         title="What is homecooks?"
         image = {meat}
