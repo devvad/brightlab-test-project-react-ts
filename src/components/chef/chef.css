@@ -1,0 +1,68 @@
+.chef {
+    margin-right: 0;
+}
+
+.chef__card {
+    margin: 0;
+}
+
+.chef__description {
+    width: 490px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 135%;
+    margin-bottom: 97px;
+}
+
+.chef__dishes {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    column-gap: 20px;
+}
+
+.chef__dishes {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    column-gap: 20px;
+}
+
+.chef__image {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.chef__image_little {
+    width: 262px;
+    height: 168px;
+}
+
+.chef__image_big {
+    width: 259px;
+    height: 315px;
+}
+
+.chef__name {
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 135%;
+}
+
+.chef__paragraph {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 135%;
+    margin: 0;
+    padding: 0;
+}
+
+.chef__title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 135%;
+    margin: 0;
+    padding: 0;
+}

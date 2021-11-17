@@ -1,0 +1,65 @@
+import Header from "./components/header/header"
+import Main from "./components/main/main"
+import Personal from "./components/personal/personal"
+import Chef from "./components/chef/chef";
+
+// images should be coming from backend (hello future GraphQL)
+import chefMan from "./images/chef-man.png"
+import chefWoman from "./images/chef-woman.png"
+import food1 from "./images/fono-little.png"
+import food2 from "./images/foto-big.png"
+
+function App() {
+  return (
+    <>
+      <Header
+        menu={[
+          { title: "Go to menus" },
+          { title: "Become a HomeCook" }
+        ]}
+      />
+      <Main title="Authentic, Local, Homemade food. Delivered" />
+      <Personal
+        title="Meet the chefs:"
+        columnFirst={
+          <Chef
+            name="John"
+            title="After 7 years working as a professional chef - I know now that cooking is my real, true passion! I love trying new recipes, improving my skills and sharing my food with new people. For me, cooking is a pinch of magic, a big spoon of love, topped with art - and of course fresh ingredients!"
+            cardFirst={{
+              img: food1,
+              title: "Name food",
+              subtitle: "short description (3-5 words)"
+            }}
+            cardSecond={{
+              img: food2,
+              title: "Food",
+              subtitle: "very tasty food"
+            }}
+            position="left"
+          />
+        }
+        columnSecond={
+          <Chef
+            name="Kate"
+            title="My name is Kate and I am a North Londoner born and bred! I have had an appetite for cooking since I was 6 years old - it all started with my Grandma teaching me the basics, cooking from scratch and using lots of fresh ingredients.I love big flavours and traditional methods of cookery - I believe that food made with love tastes so much better!"
+            cardFirst={{
+              img: food2,
+              title: "Name food",
+              subtitle: "short description (3-5 words)"
+            }}
+            cardSecond={{
+              img: food1,
+              title: "Food",
+              subtitle: "very tasty food"
+            }}
+            position="right"
+          />
+        }
+        columnFirstImg={chefMan}
+        columnSecondImg={chefWoman}
+      />
+    </>
+  );
+}
+
+export default App;
