@@ -13,6 +13,7 @@ import chefMan from "./images/chef-man.png"
 import chefWoman from "./images/chef-woman.png"
 import food1 from "./images/fono-little.png"
 import food2 from "./images/foto-big.png"
+import description from "./components/"
 
 function App() {
   return (
@@ -24,7 +25,11 @@ function App() {
         ]}
       />
       <Main title="Authentic, Local, Homemade food. Delivered" />
-      <Description />
+      <Description 
+      title="What is homecooks?"
+      image=""
+      
+      />
       <Work />
       <Personal
         title="Meet the chefs:"

@@ -1,15 +1,19 @@
-import image from "./description-foto.png"
 import "./description.css"
 
-function Description() {
+interface DescriptionProps {
+  image: string;
+  title: string;
+  paragraph: string;
+  alt: string;
+}
+
+function Description(props: DescriptionProps) {
   return (
     <section className="description">
-      <img className="description__image" src={image} alt="Chicken leg with peas" />
+      <img className="description__image" src={props.image} alt={props.alt} />
       <div className="description__text">
-        <h2 className="description__title">What is homecooks?</h2>
-        <p className="description__paragraph">We believe in providing the chefs in our community - individuals who have always dreamt of building their own food business or sharing their recipes with those around them - the opportunity
-          to make an income by doing what they love! We also believe every person should have access to authentic, homemade food at an affordable price.
-        </p>
+        <h2 className="description__title">{props.title}</h2>
+        <p className="description__paragraph">{props.paragraph}</p>
       </div>
     </section>
   );
