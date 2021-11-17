@@ -1,0 +1,22 @@
+.facts {
+  background-color: #D0E7E2;
+  padding: 120px 168px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.facts__figcaption {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 135%;
+  margin: 0;
+  padding: 0;
+  margin-top: 14px;
+}
+  
+.facts__fact {
+  margin: 0;
+  padding: 0;
+  width: 247px;
+  text-align: center;
+}

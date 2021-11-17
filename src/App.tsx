@@ -4,6 +4,7 @@ import Personal from "./components/personal/personal"
 import Chef from "./components/chef/chef";
 import Work from "./components/work/work";
 import Description from "./components/description/description";
+import Facts from "./components/facts/facts";
 
 // images should be coming from backend (hello future GraphQL)
 import chefMan from "./images/chef-man.png"
@@ -62,6 +63,7 @@ function App() {
         columnFirstImg={chefMan}
         columnSecondImg={chefWoman}
       />
+      <Facts />
     </>
   );
 }
