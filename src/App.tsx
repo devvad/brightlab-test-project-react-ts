@@ -8,12 +8,12 @@ import Facts from "./components/facts/facts";
 import Reviews from "./components/reviews/reviews";
 import Footer from "./components/footer/footer";
 
-// images should be coming from backend (hello future GraphQL)
 import chefMan from "./images/chef-man.png"
 import chefWoman from "./images/chef-woman.png"
 import food1 from "./images/fono-little.png"
 import food2 from "./images/foto-big.png"
 import description from "./images/description-foto.png"
+import meat from "./images/meat.png"
 
 function App() {
   return (
@@ -27,7 +27,7 @@ function App() {
       <Main title="Authentic, Local, Homemade food. Delivered" />
       <Description 
         title="What is homecooks?"
-        image="description"
+        image = {description}
         alt="Chicken leg with peas"
         paragraph="We believe in providing the chefs in our community - individuals who have always dreamt of building their own food business or sharing their recipes with those around them - the opportunity
         to make an income by doing what they love! We also believe every person should have access to authentic, homemade food at an affordable price."
@@ -74,6 +74,13 @@ function App() {
       />
       <Facts />
       <Reviews />
+      <Description 
+        title="What is homecooks?"
+        image = {meat}
+        alt="Meat"
+        paragraph="We take food safety extremely seriously and are committed to helping ensure that your food will
+        always be safe to eat. All HomeCooks applicants are required to provide food safety documentation, as well as registration with their local council. If you’re unsure of the procedure - our team will be more than happy to provide you with support throughout the process."
+      />
       <Footer />
     </>
   );
