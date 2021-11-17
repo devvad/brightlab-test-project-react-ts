@@ -29,7 +29,7 @@ function App() {
         ]}
       />
       <Main title="Authentic, Local, Homemade food. Delivered" />
-      <Description 
+      <Description
         title="What is homecooks?"
         image = {description}
         alt="Chicken leg with peas"
@@ -77,16 +77,33 @@ function App() {
         columnSecondImg={chefWoman}
       />
 
-      <Facts 
-        factFirst={
-          figcaption: "Average happiness rating from thousands of customers",
-          image: fact1,
-          alt: "4.8/5"
-        }
+      <Facts items={[
+				{
+					figcaption: "Average happiness rating from thousands of customers",
+        	image: fact1,
+        	alt: "4.8/5"
+				},
+				{
+					figcaption: "Average happiness rating from thousands of customers",
+        	image: fact1,
+        	alt: "4.8/5"
+				},
+				{
+					figcaption: "Average happiness rating from thousands of customers",
+        	image: fact1,
+        	alt: "4.8/5"
+				},
+				{
+					figcaption: "Average happiness rating from thousands of customers",
+        	image: fact1,
+        	alt: "4.8/5"
+				},
+			]}
+
       />
 
       <Reviews />
-      <Description 
+      <Description
         title="What is homecooks?"
         image = {meat}
         alt="Meat"

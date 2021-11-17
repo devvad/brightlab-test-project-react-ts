@@ -1,25 +1,31 @@
 import "./facts.css"
 
-interface FactsProps {
+interface Fact {
   image: string;
   figcaption: string;
   alt: string;
 }
 
-interface FactProps {
-  factFirst: FactsProps;
-  factSecond: FactsProps;
+interface FactsProps {
+	items: Fact[];
 }
 
 function Facts(props: FactsProps) {
   return (
     <section className="facts">
-      <div className="facts__fact">
-        <img src={props.image} alt={props.alt} />
-        <h2 className="facts__figcaption">{props.figcaption}</h2>
-      </div>
+      { props.items.map((item) => {
+					return(
+						<div className="facts__fact">
+							<img src={item.image} alt={item.alt} />
+							<h2 className="facts__figcaption">{item.figcaption}</h2>
+						</div>
+					)
+				})
+			}
     </section>
   );
 }
+
+
 
 export default Facts
