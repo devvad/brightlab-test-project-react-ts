@@ -1,6 +1,6 @@
-import roz from "./Roz.png"
-import gina from "./Gina.png"
-import nina from "./Nina.png"
+import roz from "../../images/Roz.png"
+import gina from "../../images/Gina.png"
+import nina from "../../images/Nina.png"
 import "./reviews.css"
 
 function Reviews() {

@@ -1,4 +1,4 @@
-import logo from "./logo.svg"
+import logo from "../../images/header-logo.svg"
 import "./header.css"
 
 interface MenuItem {

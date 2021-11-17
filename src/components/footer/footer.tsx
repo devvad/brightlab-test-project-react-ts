@@ -1,5 +1,5 @@
-import g from "./g.svg"
-import f from "./f.svg"
+import g from "../../images/g.svg"
+import f from "../../images/f.svg"
 import "./footer.css"
 
 function Footer() {

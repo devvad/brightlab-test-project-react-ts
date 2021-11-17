@@ -1,7 +1,7 @@
-import one from "./01.svg"
-import two from "./02.svg"
-import three from "./03.svg"
-import work from "./work-foto.png"
+import one from "../../images/01.svg"
+import two from "../../images/02.svg"
+import three from "../../images/03.svg"
+import work from "../../images/work-foto.png"
 import "./work.css"
 
 function Work() {

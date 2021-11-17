@@ -1,7 +1,7 @@
-import one from "./5.svg"
-import two from "./50.000+.svg"
-import three from "./100.svg"
-import four from "./1000s.svg"
+import one from "../../images/5.svg"
+import two from "../../images/50.000.svg"
+import three from "../../images/100.svg"
+import four from "../../images/1000s.svg"
 import "./facts.css"
 
 function Facts() {
