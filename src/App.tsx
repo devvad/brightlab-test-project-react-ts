@@ -3,6 +3,7 @@ import Main from "./components/main/main"
 import Personal from "./components/personal/personal"
 import Chef from "./components/chef/chef";
 import Work from "./components/work/work";
+import Description from "./components/description/description";
 
 // images should be coming from backend (hello future GraphQL)
 import chefMan from "./images/chef-man.png"
@@ -20,6 +21,7 @@ function App() {
         ]}
       />
       <Main title="Authentic, Local, Homemade food. Delivered" />
+      <Description />
       <Work />
       <Personal
         title="Meet the chefs:"

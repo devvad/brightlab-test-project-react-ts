@@ -1,0 +1,28 @@
+.description {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  column-gap: 96px;
+  margin: 120px 168px;
+}
+
+.description__paragraph {
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 135%;
+	width: 476px;
+	padding: 0;
+	margin: 0;
+}
+
+.description__text {
+	margin-top: 108px;
+}
+
+.description__title {
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 135%;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 40px;
+}
