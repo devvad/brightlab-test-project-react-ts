@@ -84,19 +84,19 @@ function App() {
         	alt: "4.8/5"
 				},
 				{
-					figcaption: "Average happiness rating from thousands of customers",
-        	image: fact1,
-        	alt: "4.8/5"
+					figcaption: "homemade meals sold by certified, real chefs to date",
+        	image: fact2,
+        	alt: "50.000+"
 				},
 				{
-					figcaption: "Average happiness rating from thousands of customers",
-        	image: fact1,
-        	alt: "4.8/5"
+					figcaption: "Of our chefs are food safety certified",
+        	image: fact3,
+        	alt: "100%"
 				},
 				{
-					figcaption: "Average happiness rating from thousands of customers",
-        	image: fact1,
-        	alt: "4.8/5"
+					figcaption: "Of authentic, homemade dishes to choose from",
+        	image: fact4,
+        	alt: "1000s"
 				},
 			]}
 
