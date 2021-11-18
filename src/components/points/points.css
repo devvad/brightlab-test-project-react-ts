@@ -1,24 +1,24 @@
-.work {
-	background-color:#D0E7E2;
+.points {
+	background-color: #F7F8F9;
 	padding: 120px 168px;
 	position: relative;
 }
 
-.work__foto {
-  width: 437px;
-  height: 436px;
+.points__foto {
+  width: 473px;
+  height: 542px;
   position: absolute;
   right: 0;
-  top: 155px;
+  top: 120px;
 }
 
-.work__image {
+.points__image {
 	width: 72px;
 	height: 81px;
 	margin: 0;
 }
 
-.work__paragraph {
+.points__paragraph {
 	font-weight: 900;
   font-size: 16px;
   line-height: 135%;
@@ -29,7 +29,7 @@
   border-bottom: 1px solid #898989;;
 }
 
-.work__point-title {
+.points__point-title {
 	font-weight: 900;
   font-size: 24px;
   line-height: 135%;
@@ -38,26 +38,26 @@
   padding-bottom: 8px;
 }
 
-.work__point {
+.points__point {
 	display: grid;
   grid-template-columns: 72px auto;
   column-gap: 40px;
   padding-bottom: 40px;
 }
 
-.work__point:last-child {
+.points__point:last-child {
   padding: 0;
 }
 
-.work__points {
+.points__points {
 	margin-top: 60px;
 }
 
-.work__text {
+.points__text {
 	margin: 0;
 }
 
-.work__title {
+.points__title {
 	font-weight: 900;
 	font-size: 40px;
 	line-height: 135%;

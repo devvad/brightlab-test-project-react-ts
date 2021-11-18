@@ -7,6 +7,7 @@ import Description from "./components/description/description";
 import Facts from "./components/facts/facts";
 import Reviews from "./components/reviews/reviews";
 import Footer from "./components/footer/footer";
+import Points from "./components/points/points";
 
 import chefMan from "./images/chef-man.png"
 import chefWoman from "./images/chef-woman.png"
@@ -130,6 +131,28 @@ function App() {
 				},
 			]}
       />
+
+			<Points items={[
+				{
+        	image: one,
+        	alt: "one",
+					title: "Support local cooks",
+					paragraph: "Unlike restaurants, you know exactly who is preparing your food and who you’re supporting."
+				},
+				{
+        	image: two,
+        	alt: "two",
+					title: "Explore new cultures",
+					paragraph: "Reconnect with your childhood memories or discover new cultures through traditional, authentic homemade dishes."
+				},
+				{
+        	image: three,
+        	alt: "three",
+					title: "It’s convenient",
+					paragraph: "Enjoy real, homemade food - without sacrificing time - for as little as £5 per meal."
+				},
+			]}
+			/>
 
       <Reviews items={[
 				{
