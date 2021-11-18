@@ -21,6 +21,9 @@ import fact4 from "./images/1000s.svg"
 import roz from "./images/Roz.png"
 import gina from "./images/Gina.png"
 import nina from "./images/Nina.png"
+import one from "./images/01.svg"
+import two from "./images/02.svg"
+import three from "./images/03.svg"
 
 function App() {
   return (
@@ -31,7 +34,9 @@ function App() {
           { title: "Become a HomeCook" }
         ]}
       />
+
       <Main title="Authentic, Local, Homemade food. Delivered" />
+
       <Description
         title="What is homecooks?"
         image = {description}
@@ -39,7 +44,29 @@ function App() {
         paragraph="We believe in providing the chefs in our community - individuals who have always dreamt of building their own food business or sharing their recipes with those around them - the opportunity
         to make an income by doing what they love! We also believe every person should have access to authentic, homemade food at an affordable price."
       />
-      <Work />
+
+      <Work items={[
+				{
+        	image: one,
+        	alt: "one",
+					title: "Explore chefs in your neighbourhood",
+					paragraph: "Get authentic, homemade food prepared locally, by approved chefs."
+				},
+				{
+        	image: two,
+        	alt: "two",
+					title: "Place your order",
+					paragraph: "Order in advance so your chef can buy fresh ingredients, and cook to order."
+				},
+				{
+        	image: three,
+        	alt: "three",
+					title: "Get your delivery",
+					paragraph: "Dishes arrive at your door refrigerated at a time that suits you. Just heat up and enjoy!"
+				},
+			]}
+			/>
+
       <Personal
         title="Meet the chefs:"
         columnFirst={
@@ -102,7 +129,6 @@ function App() {
         	alt: "1000s"
 				},
 			]}
-
       />
 
       <Reviews items={[
@@ -125,8 +151,8 @@ function App() {
 					text: "It’s great being the opportunity to try food that I would likely not encounter unless I was abroad! Many dishes take me back to my childhood memories - and I love supporting local chefs."
 				},
 			]}
-
 			/>
+
       <Description
         title="What is homecooks?"
         image = {meat}
@@ -134,6 +160,7 @@ function App() {
         paragraph="We take food safety extremely seriously and are committed to helping ensure that your food will
         always be safe to eat. All HomeCooks applicants are required to provide food safety documentation, as well as registration with their local council. If you’re unsure of the procedure - our team will be more than happy to provide you with support throughout the process."
       />
+
       <Footer />
     </>
   );
